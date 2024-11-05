@@ -1054,8 +1054,8 @@ function GM:InitPostEntity()
     self.InitPostEntityCalled = true
 
     local physData = physenv.GetPerformanceSettings()
-    physData.MaxVelocity = 2000
-    physData.MaxAngularVelocity = 3636
+    physData.MaxVelocity = 9100
+    physData.MaxAngularVelocity = 4000
 
     physenv.SetPerformanceSettings(physData)
 
